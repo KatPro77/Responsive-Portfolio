@@ -1,0 +1,228 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../Images/whitediamond.png);
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: auto;
+    color: #777777;
+}
+
+header {
+    padding: 20px;
+    background-color: #ffffff;
+    border-color: #cccccc;
+    border-bottom: solid 3px;
+    margin-bottom: 30px;
+}
+
+.Name {
+    width: 960px;
+    margin: 0 auto;
+}
+
+h1 {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:30px;
+    font-weight: bold;
+    display: inline-block;
+
+}
+
+nav {
+    float: right;
+    width: 300px;
+    text-align: center;
+    margin-top: 35px;
+}
+
+
+nav ul li {
+   display: inline;
+}
+
+nav a {
+    color: #777777;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-right: 2px solid #777777;
+}
+
+nav ul li:last-child a {
+    padding: none;
+    border-right: none;
+}
+
+nav a:hover {
+    background: #666666;
+    color: #ffffff;
+}
+
+.clearfix { 
+    display: block;
+}
+
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    color: #4aaaa5;
+    font-weight: bold; 
+    padding: 15px 0;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #cccccc;   
+}
+
+p {
+    font-size: 16px;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+
+.middle {
+    background: #ffffff;
+    width: 960px;
+    padding: 30px;
+    margin: auto;
+}
+
+
+.inline-img {
+    float: left;
+    width: 150px;
+    height: 200px;
+    margin: 0 20px 20px 0;
+}
+
+.portfolio-image {
+    position: relative;
+    margin-bottom: 20px;
+    width: 45%;
+    float: left;
+    height: 250px;
+    padding: 200px 0 15px 0;
+}
+
+.portfolio-image:nth-of-type(even) {
+    float: right;
+}
+
+.portfolio-image h3 {
+    background: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+    width:100%;
+    padding: 12px 0;
+    position: absolute;
+}
+
+form input, form textarea {
+    width: 100%;
+    margin-bottom: 10px 0 20px 0;
+    border: 2px solid #cccccc;
+    padding: 10px;
+    display: block;
+}
+
+textarea {
+    height: 150px;
+}
+
+button a {
+    color: #4aaaa5;
+    padding: 20px 40px;
+    margin: 10px 0;
+    border: none;
+    font-size: 18px;
+    text-decoration: none;
+    width: 200px;
+}
+footer {
+    clear: both;
+    background: #666666;
+    border-top: 3px solid #4aaaa5;
+    color: #cccccc;
+    text-align: center;
+    padding: 25px;
+    margin-top: 30px;
+}
+
+#community {
+    background-image: url(../Images/DSC_0645.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#architecture {
+    background-image: url(../Images/Photography\ Samples_Page_13.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#graphics {
+    background-image: url(../Images/Photography\ Samples_Page_42.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#sports {
+    background-image: url(../Images/DSC_0067.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#charity {
+    background-image: url(../Images/DSC_0144.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#misc {
+    background-image: url(../Images/Photography\ Samples_Page_26.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media (max-width: 980px) {
+    .Name {
+      width: 100%;
+    }
+    .middle {
+      width: 100%;
+    }
+    .portfolio-image {
+      width: 100%;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .Name {
+      width: 100%;
+    }
+    .middle {
+      width: 100%;
+    }
+    .portfolio-image {
+      width: 100%;
+    }
+  }
+
+  @media (max-width: 640px) {
+    .Name {
+      width: 100%;
+    }
+    .middle {
+      width: 100%;
+    }
+    .portfolio-image {
+      width: 100%;
+    }
+  }
+
+ 
+
+    
